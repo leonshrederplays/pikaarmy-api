@@ -72,6 +72,12 @@ typings/
 .env
 .env.test
 
+# Transpiled JavaScript files from Typescript
+/dist
+
+# Cache used by TypeScript's incremental build
+*.tsbuildinfo
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
